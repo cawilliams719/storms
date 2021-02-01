@@ -37,10 +37,11 @@ plt.plot(sum["obsv"]) # plot observation column
 plt.xlabel("Year") # x-axis title
 plt.ylabel("Tornado Frequency") # y-axis title
 plt.title("Number of Tornadoes per Year 1950 - 2019") # title
-plt.show() # display plot
 
 # export figure
 plt.savefig("C:/Users/Caroline/Documents/Projects/storms/figures/tornado_freq.png")
+
+plt.show() # display plot
 
 # Join tables
 # TODO: remove Alaska and Hawaii - keep CONUS
